@@ -11,19 +11,17 @@ Requires local intallations of SMALT and samtools. If these are not in your defa
 Usage: 
 map_resistome.py [options]
 
-Options:
-  --version             show program's version number and exit
-  -h, --help            show this help message and exit
-  -c FILE, --contigs=FILE
-                        multifasta containing contigs to search in
-  -f FILE, --forward=FILE
-                        forward fastq file (may be zipped, but must end .gz)
+Options:<BR>
+--version             show program's version number and exit<BR>
+-h, --help            show this help message and exit<BR>
+-c FILE, --contigs=FILE multifasta containing contigs to search in<BR>
+-f FILE, --forward=FILE forward fastq file (may be zipped, but must end .gz)<BR>
   -r FILE, --reverse=FILE
-                        reverse fastq file (may be zipped, but must end .gz)
+                        reverse fastq file (may be zipped, but must end .gz)<BR>
   -g FILE, --genes=FILE
-                        multifasta containing genes to search for
+                        multifasta containing genes to search for<BR>
   -o FILE, --output=FILE
-                        output prefix
+                        output prefix<BR>
   -i float, --id=float  minimum id to report match (excluding clipping due to
                         contig breaks). Must be between 0 and 1. [default =
                         0.9]
