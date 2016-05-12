@@ -1,6 +1,6 @@
 # map_resistome
 
-PLEASE NOTE: THIS SCRIPT IS DEPRECATED. WE RECOMMEND THE USE OF ARIBA INSTEAD.
+PLEASE NOTE: THIS SCRIPT IS DEPRECATED. WE RECOMMEND THE USE OF ARIBA (https://github.com/sanger-pathogens/ariba) INSTEAD.
 
 A python script for identifying matches to resistance alleles in genome assemblies. Unlike many other methods map_resistome will highlight partial matches at contig boundaries that may be the result of assembly issues for repetitive resistance genes.
 
